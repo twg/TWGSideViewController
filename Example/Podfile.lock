@@ -1,0 +1,14 @@
+PODS:
+  - TWGSideViewController (0.1.0)
+
+DEPENDENCIES:
+  - TWGSideViewController (from `../`)
+
+EXTERNAL SOURCES:
+  TWGSideViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TWGSideViewController: 3e2146019e7a95595c7694d535a348dd0c584ff6
+
+COCOAPODS: 0.39.0

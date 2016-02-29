@@ -1,0 +1,6 @@
+framework module TWGSideViewController {
+  umbrella header "TWGSideViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
