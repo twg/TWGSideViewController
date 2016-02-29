@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TWGSideViewController_Example', :exclusive => true do
+  pod 'TWGSideViewController', :path => '../'
+end
+
+target 'TWGSideViewController_Tests', :exclusive => true do
+  pod 'TWGSideViewController', :path => '../'
+
+  
+end
