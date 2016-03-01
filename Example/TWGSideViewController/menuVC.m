@@ -1,13 +1,13 @@
-#import "twgViewController.h"
+#import "menuVC.h"
 #import "TWGSideViewController.h"
 
-@interface twgViewController () <TWGSideViewControllerDelegate>
+@interface menuVC () <TWGSideViewControllerDelegate>
 
-@property (strong, nonatomic) TWGSideViewController *sideViewController;
+@property (strong, nonatomic) TWGSideViewController *menu;
 
 @end
 
-@implementation twgViewController
+@implementation menuVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -51,7 +51,7 @@
     [sideViewController didMoveToParentViewController:self];
     [sideViewController showViewControllerAnimated:YES];
     
-    self.sideViewController = sideViewController;
+    self.menu = sideViewController;
 }
 
 - (void)didOpenSideView:(TWGSideViewController *)sideViewController
