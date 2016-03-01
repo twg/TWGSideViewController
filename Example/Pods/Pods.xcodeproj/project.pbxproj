@@ -7,27 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28EBACC2161DFEE397046E40C18E01B2 /* TWGSideViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FC227306E3D738ABDB0F3F2C14CA6 /* TWGSideViewController-dummy.m */; };
+		0AD6AE95776B706FED2A089671F08A80 /* TWGSideViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F15AEFDCF8CAB144A9EC9B5057AC03 /* TWGSideViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C24D3B98299A7CF48BAC5311578E690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		2FC0E7EAE292FF1BA3C7078B7333E06E /* Pods-TWGSideViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DACA8E45FCFA1B6C6BAD49935341373 /* Pods-TWGSideViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A5898E078DF545CA4E74261F537FE9E /* TWGSideViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1F70888E484107CFFAF619EA3B18EDC /* TWGSideViewController.bundle */; };
+		32DB67379871F90A5BEB70ADDBF6A6B3 /* TWGSideViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FC227306E3D738ABDB0F3F2C14CA6 /* TWGSideViewController-dummy.m */; };
+		39BFD8260B3DBDD539B128AEF241866B /* TWGSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55C0526235A3689C599627DC559096 /* TWGSideViewController.m */; };
 		50423452ED52FC0C5F092035FB97E8BB /* Pods-TWGSideViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832A8384D126DBEC24F4DF679D76532 /* Pods-TWGSideViewController_Tests-dummy.m */; };
 		5551AD35E6AF2004292B29616D9DDF02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		6958B1DC0AA6A5D5F62F09D346097637 /* Pods-TWGSideViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA2454F07050AED4D7E5B332EE4C71 /* Pods-TWGSideViewController_Example-dummy.m */; };
-		823AB3D9DE32A5A9F9DADC014E36C500 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 90721C9ED4C2E63E1F75C36D87017AB0 /* ReplaceMe.m */; };
-		87036AD5055015AD38E2D8DBDF76B5CE /* TWGSideViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F15AEFDCF8CAB144A9EC9B5057AC03 /* TWGSideViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD23562FA844090F58D499D52B8EBE40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		E0B72A61EF4D6C2F4505D6D912DE5C0D /* Pods-TWGSideViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBEDFE1BC75886AD0B56AD2BC78B710 /* Pods-TWGSideViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00D25F264974E601F5FA6E77AE24E04 /* TWGSideViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 98910DAF2A99BA4631EE46D6FD4C909C /* TWGSideViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55DEE5AD668BC658A2144347188FA0A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 95C2E4A7091BD94E19ED28B45E060BA3;
-			remoteInfo = "TWGSideViewController-TWGSideViewController";
-		};
 		8207C5F146482D3BE08D03BB8C0CD8E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -50,32 +43,32 @@
 		211C40B60250B5EA05682BDFBA0EEE0D /* Pods-TWGSideViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWGSideViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		26E38DE47B87CB0D304B8E22F0245796 /* Pods-TWGSideViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWGSideViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		325905F6C111566253FE4AB3D4483C85 /* Pods-TWGSideViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWGSideViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32F2F944E9C2228F13D31A77F24A68E4 /* Pods_TWGSideViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGSideViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B39DBB913DF314DC53C945AD109E12 /* Pods-TWGSideViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWGSideViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43ACDA5A9DCBE8BBFA58F9E607FBDF91 /* Pods_TWGSideViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGSideViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB375950BC974E6F03807757148E453 /* Pods-TWGSideViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWGSideViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5DEDB23A55DB8487BC9D3E19C817602F /* Pods_TWGSideViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGSideViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDBE3F55A0953D3EA15ED6DE39BDB35 /* Pods-TWGSideViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TWGSideViewController_Example.modulemap"; sourceTree = "<group>"; };
 		67BA2454F07050AED4D7E5B332EE4C71 /* Pods-TWGSideViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWGSideViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		6BC0B04AD8B5FBE811B75CEFF01876BE /* TWGSideViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TWGSideViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB07D4AB9B408554B46264FAF29B711 /* Pods-TWGSideViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWGSideViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7843E4439EA079F3895B92D45A3C248E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79828147E0D63674FBE853BA90447167 /* Pods-TWGSideViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWGSideViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		7AA49087926F5170AD199995A8BA9D9D /* TWGSideViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWGSideViewController.xcconfig; sourceTree = "<group>"; };
 		7E5F8320ED946D3C6F7A0BE2DF397EF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B080BC0C3933B9ECBBD7131ABDD4BF6 /* TWGSideViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TWGSideViewController.modulemap; sourceTree = "<group>"; };
-		90721C9ED4C2E63E1F75C36D87017AB0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		98910DAF2A99BA4631EE46D6FD4C909C /* TWGSideViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TWGSideViewController.h; sourceTree = "<group>"; };
 		9D59C8E79F2E9DC84E72FD9158B9AF9A /* Pods-TWGSideViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWGSideViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		ACC0E45CDF12D6F811237498117F3C95 /* TWGSideViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWGSideViewController-prefix.pch"; sourceTree = "<group>"; };
-		B1F70888E484107CFFAF619EA3B18EDC /* TWGSideViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWGSideViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39D83E95858F9E91EAA827C15DB6C26 /* Pods-TWGSideViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWGSideViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD4FC227306E3D738ABDB0F3F2C14CA6 /* TWGSideViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWGSideViewController-dummy.m"; sourceTree = "<group>"; };
 		BFEEAF36A9A7455A94007B084274128D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C682D0736BABD2105AED0C0F25D46DFC /* Pods-TWGSideViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWGSideViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D211BBED1B71D56EF98F0BEEB4E00098 /* Pods_TWGSideViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWGSideViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2783E7165315EA715E145E7248EE644 /* Pods-TWGSideViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWGSideViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		D420DE8676EE20293B46F40A4F4FD956 /* TWGSideViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TWGSideViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E152DCC5645D190D7D2DBC361BCDD76A /* Pods-TWGSideViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWGSideViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E779121844086E1886853C563D1F4E92 /* Pods-TWGSideViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TWGSideViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		EE55C0526235A3689C599627DC559096 /* TWGSideViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TWGSideViewController.m; sourceTree = "<group>"; };
 		F5F15AEFDCF8CAB144A9EC9B5057AC03 /* TWGSideViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWGSideViewController-umbrella.h"; sourceTree = "<group>"; };
 		FEBEDFE1BC75886AD0B56AD2BC78B710 /* Pods-TWGSideViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWGSideViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,28 +98,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB9021F71A63A4D297E15754A68DA640 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33BC001898BF6A1F4B169E690348E2B0 /* Classes */ = {
+		171A8E3360C7170879C498690BD2025D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				90721C9ED4C2E63E1F75C36D87017AB0 /* ReplaceMe.m */,
+				FA55F6759AB5934A768E7885C261B5F6 /* Classes */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		3549131FA8EDDF8221638813309A7CDA /* TWGSideViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D01DE3BE09224F7E36AD198211742761 /* Pod */,
+				171A8E3360C7170879C498690BD2025D /* Pod */,
 				A85FBC1A1E13B415DA48F6C9035761C2 /* Support Files */,
 			);
 			name = TWGSideViewController;
@@ -165,9 +151,19 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				45E2281CCF92EB945D18C3026CB42DE4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DCDC4B2F11223DBD4CD1C73724D62A02 /* Products */,
+				947F5454A5CA3C36B65C6A7731BB6ABF /* Products */,
 				C29107B0B0652B8C7E6652E882120F72 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		947F5454A5CA3C36B65C6A7731BB6ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F2F944E9C2228F13D31A77F24A68E4 /* Pods_TWGSideViewController_Example.framework */,
+				D211BBED1B71D56EF98F0BEEB4E00098 /* Pods_TWGSideViewController_Tests.framework */,
+				6BC0B04AD8B5FBE811B75CEFF01876BE /* TWGSideViewController.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A4A5AD83FE3AE45B17BE969EA9D448F0 /* Pods-TWGSideViewController_Example */ = {
@@ -227,36 +223,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D01DE3BE09224F7E36AD198211742761 /* Pod */ = {
+		FA55F6759AB5934A768E7885C261B5F6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				33BC001898BF6A1F4B169E690348E2B0 /* Classes */,
+				98910DAF2A99BA4631EE46D6FD4C909C /* TWGSideViewController.h */,
+				EE55C0526235A3689C599627DC559096 /* TWGSideViewController.m */,
 			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		DCDC4B2F11223DBD4CD1C73724D62A02 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5DEDB23A55DB8487BC9D3E19C817602F /* Pods_TWGSideViewController_Example.framework */,
-				43ACDA5A9DCBE8BBFA58F9E607FBDF91 /* Pods_TWGSideViewController_Tests.framework */,
-				B1F70888E484107CFFAF619EA3B18EDC /* TWGSideViewController.bundle */,
-				D420DE8676EE20293B46F40A4F4FD956 /* TWGSideViewController.framework */,
-			);
-			name = Products;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		033C1421B91B034954626ABE068BE89B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87036AD5055015AD38E2D8DBDF76B5CE /* TWGSideViewController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		15403D21C77C509293FF30F5193152B2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +248,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B72A61EF4D6C2F4505D6D912DE5C0D /* Pods-TWGSideViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D873509E1FA41E44042BDC22BBC190 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD6AE95776B706FED2A089671F08A80 /* TWGSideViewController-umbrella.h in Headers */,
+				F00D25F264974E601F5FA6E77AE24E04 /* TWGSideViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +278,7 @@
 			);
 			name = "Pods-TWGSideViewController_Example";
 			productName = "Pods-TWGSideViewController_Example";
-			productReference = 5DEDB23A55DB8487BC9D3E19C817602F /* Pods_TWGSideViewController_Example.framework */;
+			productReference = 32F2F944E9C2228F13D31A77F24A68E4 /* Pods_TWGSideViewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6775F4EF5368C686F960548165AB297F /* Pods-TWGSideViewController_Tests */ = {
@@ -309,43 +296,24 @@
 			);
 			name = "Pods-TWGSideViewController_Tests";
 			productName = "Pods-TWGSideViewController_Tests";
-			productReference = 43ACDA5A9DCBE8BBFA58F9E607FBDF91 /* Pods_TWGSideViewController_Tests.framework */;
+			productReference = D211BBED1B71D56EF98F0BEEB4E00098 /* Pods_TWGSideViewController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		95C2E4A7091BD94E19ED28B45E060BA3 /* TWGSideViewController-TWGSideViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E29DE572740200BE875149541549A8AB /* Build configuration list for PBXNativeTarget "TWGSideViewController-TWGSideViewController" */;
-			buildPhases = (
-				BD6592193DF87E6C795289A1EF44BC2D /* Sources */,
-				FB9021F71A63A4D297E15754A68DA640 /* Frameworks */,
-				92FAF1958F94915B5269AE0CB0361BC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TWGSideViewController-TWGSideViewController";
-			productName = "TWGSideViewController-TWGSideViewController";
-			productReference = B1F70888E484107CFFAF619EA3B18EDC /* TWGSideViewController.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		F9F8400C4E11E7FA56D035EF1AC7A1E5 /* TWGSideViewController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B029851D883F795D415748A82A5AAEA /* Build configuration list for PBXNativeTarget "TWGSideViewController" */;
 			buildPhases = (
-				2D33E0D09AC0E7ECA5A71E6BA4EFE511 /* Sources */,
+				409401A0AEC594431A5EA6C655145970 /* Sources */,
 				5E4A8DA03F4846DD528E56071480BB23 /* Frameworks */,
-				5A2733B918F6B8EC9CB4531A0BFE26FD /* Resources */,
-				033C1421B91B034954626ABE068BE89B /* Headers */,
+				F2D873509E1FA41E44042BDC22BBC190 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				678B71A5784348E03A9AF27E4A555F1E /* PBXTargetDependency */,
 			);
 			name = TWGSideViewController;
 			productName = TWGSideViewController;
-			productReference = D420DE8676EE20293B46F40A4F4FD956 /* TWGSideViewController.framework */;
+			productReference = 6BC0B04AD8B5FBE811B75CEFF01876BE /* TWGSideViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,46 +333,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DCDC4B2F11223DBD4CD1C73724D62A02 /* Products */;
+			productRefGroup = 947F5454A5CA3C36B65C6A7731BB6ABF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				15DB1E38DFE6BA3FEBCBD00F2D93582A /* Pods-TWGSideViewController_Example */,
 				6775F4EF5368C686F960548165AB297F /* Pods-TWGSideViewController_Tests */,
 				F9F8400C4E11E7FA56D035EF1AC7A1E5 /* TWGSideViewController */,
-				95C2E4A7091BD94E19ED28B45E060BA3 /* TWGSideViewController-TWGSideViewController */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		5A2733B918F6B8EC9CB4531A0BFE26FD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A5898E078DF545CA4E74261F537FE9E /* TWGSideViewController.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92FAF1958F94915B5269AE0CB0361BC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		2D33E0D09AC0E7ECA5A71E6BA4EFE511 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				823AB3D9DE32A5A9F9DADC014E36C500 /* ReplaceMe.m in Sources */,
-				28EBACC2161DFEE397046E40C18E01B2 /* TWGSideViewController-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		351DAAE110ABC27084B8A648AF46F18E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,10 +353,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD6592193DF87E6C795289A1EF44BC2D /* Sources */ = {
+		409401A0AEC594431A5EA6C655145970 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DB67379871F90A5BEB70ADDBF6A6B3 /* TWGSideViewController-dummy.m in Sources */,
+				39BFD8260B3DBDD539B128AEF241866B /* TWGSideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,12 +378,6 @@
 			name = TWGSideViewController;
 			target = F9F8400C4E11E7FA56D035EF1AC7A1E5 /* TWGSideViewController */;
 			targetProxy = 8207C5F146482D3BE08D03BB8C0CD8E5 /* PBXContainerItemProxy */;
-		};
-		678B71A5784348E03A9AF27E4A555F1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TWGSideViewController-TWGSideViewController";
-			target = 95C2E4A7091BD94E19ED28B45E060BA3 /* TWGSideViewController-TWGSideViewController */;
-			targetProxy = 55DEE5AD668BC658A2144347188FA0A4 /* PBXContainerItemProxy */;
 		};
 		DBA0AEB02FD1652E5CE97FF56F797FF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -642,18 +578,6 @@
 			};
 			name = Release;
 		};
-		9341A0DDD0299556B8F5B0EC3B8CEF19 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AA49087926F5170AD199995A8BA9D9D /* TWGSideViewController.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TWGSideViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		AD4B18E6800FEDE1AB54A2E094662E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39B39DBB913DF314DC53C945AD109E12 /* Pods-TWGSideViewController_Example.debug.xcconfig */;
@@ -711,18 +635,6 @@
 			};
 			name = Debug;
 		};
-		EC27E8B2D41EB92EB181250C97F41430 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AA49087926F5170AD199995A8BA9D9D /* TWGSideViewController.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TWGSideViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -758,15 +670,6 @@
 			buildConfigurations = (
 				458DD9315AE9CE4ABB5AEB69E4D2C0ED /* Debug */,
 				2FEB501C26A6BB73FB00B1D26695681A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E29DE572740200BE875149541549A8AB /* Build configuration list for PBXNativeTarget "TWGSideViewController-TWGSideViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9341A0DDD0299556B8F5B0EC3B8CEF19 /* Debug */,
-				EC27E8B2D41EB92EB181250C97F41430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

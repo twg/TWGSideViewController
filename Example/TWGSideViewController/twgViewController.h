@@ -1,12 +1,4 @@
-//
-//  twgViewController.h
-//  TWGSideViewController
-//
-//  Created by Vincent Renais on 02/29/2016.
-//  Copyright (c) 2016 Vincent Renais. All rights reserved.
-//
-
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface twgViewController : UIViewController
 

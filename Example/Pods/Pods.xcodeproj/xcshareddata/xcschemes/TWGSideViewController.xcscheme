@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '08DA55F992D2B4A0029306FD'
+               BlueprintIdentifier = '132D5EE770F3ED90977D6810'
                BlueprintName = 'TWGSideViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TWGSideViewController.framework'>

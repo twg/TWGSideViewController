@@ -1,25 +1,20 @@
 {
   "name": "TWGSideViewController",
   "version": "0.1.0",
-  "summary": "A short description of TWGSideViewController.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TWGSideViewController",
+  "summary": "A side view controller that slides to the right or the left.",
+  "description": "TWGSideViewController provides a side view controller that slides to the right or the left.",
+  "homepage": "https://github.com/twg/TWGSideViewController",
   "license": "MIT",
   "authors": {
-    "Vincent Renais": "vincentrenais@gmail.com"
+    "The Working Group": "mobile@twg.ca"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TWGSideViewController.git",
+    "git": "https://github.com/twg/TWGSideViewController.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "TWGSideViewController": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": "Pod/Classes/**/*"
 }
